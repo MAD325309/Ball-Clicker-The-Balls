@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ball Clicker</title>
+
+    <style>
+
+        body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 120px
+     }
+
+    button {
+            font-size: 16px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #ball-count {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        </style>
+
+ </head>
+
+ <body>
+
+<h1>Ball Clicker: The Balls</h1>
+
+    <button onclick="giveball()">
+        Click me for balls.
+    </button>
+
+    <button onclick="newButtonFunction()">Click me for something else.</button>
+
+    <div id = "ball-count">Balls: 0</div>
+
+    <script>
+
+        let ballCount = 0
+    
+        function giveball() {
+            ballCount++
+            document.getElementById('ball-count').textContent = 'Balls: ' + ballCount
+        }
+
+        function newButtonFunction() {
+            let ballCount = 0
+            document.getElementById('ball-count').textContent = 'Balls: ' + ballCount
+           
+            console.log("Loser haha!");
+        }
+
+    </script>
+
+</body>
+
+</html>
