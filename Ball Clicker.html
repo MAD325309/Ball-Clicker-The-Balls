@@ -38,7 +38,6 @@
         Click me for balls.
     </button>
 
-    <button onclick="newButtonFunction()">Click me for something else.</button>
 
     <div id = "ball-count">Balls: 0</div>
 
@@ -49,13 +48,6 @@
         function giveball() {
             ballCount++
             document.getElementById('ball-count').textContent = 'Balls: ' + ballCount
-        }
-
-        function newButtonFunction() {
-             ballCount = 0
-            document.getElementById('ball-count').textContent = 'Balls: ' + ballCount
-           
-            console.log("Loser haha!");
         }
 
     </script>
