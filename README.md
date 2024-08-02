@@ -1,4 +1,4 @@
-Don't really know what to put in this. 
+I don't know what to put in this. 
 
 Hello!
 
@@ -11,5 +11,3 @@ I'm running out of words already.
 Play ball clicker!
 
 For free!
-
-Dont click the button on the right...
